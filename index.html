@@ -1,0 +1,490 @@
+<!-- This file contains many elements adapted from the online tutoral -->
+<!-- on Bootstrap 4 as found here: https://www.w3schools.com/bootstrap4/default.asp -->
+
+<!-- Images source: -->
+<!-- jule.jpg taken from https://www.freepik.com/premium-vector/cartoon-successful-hairdresser_3951066.htm -->
+<!-- Erwind.jpb https://www.kijiji.ca/v-construction-trades-jobs/winnipeg/bicycle-mechanic/1499188319 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Stock images are taken from shutterstock.com -->
+
+<!-- The head should contain an appropriate title for your site -->
+<head>
+    <title>Nice Scissors</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style sheet (CSS) and JavaScript scripts necessary to use Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+
+
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/excite-bike/jquery-ui.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>	
+
+    <!-- Your own additional style sheet -->
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	
+	<link rel="icon" href="images/logo-black.png">
+
+	 <script src="scripts/service.js"></script>
+
+	
+</head>
+
+
+<body>
+
+    <!-- Medium size container, padding 3, margins 3, background dark, text is white -->
+    <!-- Should show the name of your company with an image or logo -->
+    <!-- Bootstrap has its own font for H1, H2, p, etc.  -->
+    <!-- Look in BS4 Typography https://www.w3schools.com/bootstrap4/bootstrap_typography.asp -->
+    <!-- Use your own CSS file to change those fonts if they do not correspond to your company's look -->
+    
+
+	
+	<ul class = hdr>
+		<li class = "hd"><a href="#Payment"> <img class ="icon-small" src="images/card-white.png"  alt="noice"> Payment </a></li>
+		<li class = "hd"><a href="#Booking"> <img class ="icon-small" src="images/book-white.png"  alt="noice"> Make a booking</a> </li>     
+        <li class = "hd"><a href="#Location"> <img class ="icon-small" src="images/location-white.png"  alt="noice"> Where to find us</a></li>
+		<li class = "hd"><a href="#Stylists"> <img class ="icon-small" src="images/face-white.png"  alt="noice"> Our Hairdressers</a></li>     
+		<li class = "hd"><a href="#Services"> <img class ="icon-small" src="images/service-white.png"  alt="noice"> Services </a></li>
+
+		
+		<br>
+		<a href="#top" ><img class = "nice" src="images/logo-white.png" alt="noice"></a>
+		<h1>Nice Scissors</h1>
+
+
+    </ul>
+	
+	
+	<br>
+	<br>
+	<br>
+
+	
+	<div class="row row1"></div>
+
+    </div>
+	<div class="container-fluid border pt-4">
+    </div>
+	
+
+
+	<!--
+	<div  class="container-fluid border pt-4">
+		<img class = "nice" src="images/logo-white.png" alt="noice">
+        <h1>Welcome to Nice Scissors</h1>
+		<br>
+    </div>
+   
+    <div class="row row1">
+        <div class="col-sm-3"><a href="#Services">Services</a></div>
+        <div class="col-sm-3"><a href="#Stylists">Our Stylists</a></div>
+        <div class="col-sm-3"><a href="#Location">Where to find us</a></div>
+		<div class="col-sm-3"><a href="#Booking">Make a booking</a></div>
+
+    </div>
+	<div class="container-fluid border pt-4">
+    </div>
+	-->
+
+
+    <!-- When you have messages to tell, remember that center align is not always the best choice -->
+    <div class="container-md p-3 my-3 border  ">
+		<img class="hair-girl" src="images/hair-girl.png" alt="hair girl" >
+        <h3>Let us tell you about our expertise</h3>
+        
+		<br>
+		<p>Nice Scissors is a world renowned hair salon that offers the best service and hair styling experience there is to offer. With 25 years of experience, Nice Scissors has undoubtedly the nicest scissors around.</p>
+		<br>
+		
+		<br>
+		<br>
+		
+	
+    </div>
+
+
+	<br>
+    <!-- Presenting the staff with cards: https://www.w3schools.com/bootstrap4/bootstrap_cards.asp -->
+    <!-- Card columns allows multiple cards next to each other -->
+    <!-- The first card's button doesn't go anywhere, it could be a modal --> 
+    <!-- My second card limits the information seen and uses collapsible to show more -->
+    <div class="container p-3" id="Stylists">
+	
+        <h2> <img class ="icon-small" src="images/face.png"  alt="noice"> Meet our Hairdressers</h2>
+		<p>Connect with our diverse family of first choice hair stylists</p>            
+        <div class="card-columns">
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="images/harriet.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Harriet</h4>
+                    <p class="card-text">First-Rate Coiffeuse </p>
+                   <a href="#Harriet" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                    <div id="Harriet" class="collapse p-3">
+                        <p>Styling queen that has been cutting hair for 15 years</p>
+						<p>Available: Mon-Thur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card " style="width:350px">
+                <img class="card-img-top" src="images/harold.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Harold</h4>
+                    <p class="card-text"> Styling Genius</p>
+                    <!-- collapsible part -->
+                    <a href="#Harold" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                    <div id="Harold" class="collapse p-3">
+                        <p>Up and coming hair prodigy that perfects stylish do's</p>
+                        <p>Available: Always Available</p>
+                    </div>
+                </div>
+            </div>
+			<div class="card " style="width:350px">
+                <img class="card-img-top" src="images/harry.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Harry</h4>
+                    <p class="card-text"> Hair Guru </p>
+                    <!-- collapsible part -->
+                    <a href="#Harry" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                    <div id="Harry" class="collapse p-3">
+                        <p>Specialises in thick locks and longer hairstyles</p>
+						<p>Available: Fri-Sat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<br>
+    <!-- Bootstrap has different types of tables https://www.w3schools.com/bootstrap4/bootstrap_tables.asp -->
+    <!-- Might be (or not) useful to show some information to the user -->
+    <div class="container" id="Services">
+        <h2> <img class ="icon-small" src="images/service.png"  alt="noice"> Our Services</h2>
+        <p>Here is a list of services offered</p>            
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th class = "heading"><h4>Service</h4></th>
+				<th class = "heading"><h4>Description</h4></th>
+				<th class = "heading"><h4>Price</h4></th>
+				<th class = "heading"><h4>Preview</h4></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><br>Haircut - Long</td>
+                <td><br>Longer hairstyles for curly locks or a classic look</td>
+				<td><br>39.00</td>
+				<td><img class="service-preview" src="images/hair-long.png" alt="hair girl" ></td>
+            </tr>
+			
+			<tr>
+                <td><br>Haircut - Medium</td>
+                <td><br>A nice inbetween length for the best of both worlds</td>
+				<td><br>37.00</td>
+				<td><img class="service-preview" src="images/hair-medium.png" alt="hair girl" ></td>
+            </tr>
+			
+			<tr>
+                <td><br>Haircut - Short</td>
+                <td><br>Trendier hairstyles from close-cropped to above the shoulders</td>
+				<td><br>31.50</td>
+				<td><img class="service-preview" src="images/hair-short.png" alt="hair girl" ></td>
+            </tr>
+           
+            <tr>
+                <td><br>Colouring</td>
+                <td><br>Colour up your hair to truly express yourself</td>
+ 				<td><br>19.00</td>
+				<td><img class="service-preview" src="images/hair-colour.png" alt="hair girl" ></td>
+           </tr>
+		   
+		    <tr>
+                <td><br>Shampoo</td>
+                <td><br>Complete hair cleansing including washing and shampoo</td>
+				<td><br>11.50</td>
+				<td><img class="service-preview" src="images/hair-shampoo.png" alt="hair girl" ></td>
+
+            </tr>
+			
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Collapsible with multiple items - accordion -->
+    <!-- https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp -->
+    <!-- As we want to do a vertical navigation better suited for mobile design, an accordion pattern -->
+    <!-- could work well.  You can use other patterns too.  This is just an example. -->
+	<br>
+    <div class="container" id="Booking">
+	<h2> <img class ="icon-small" src="images/book.png"  alt="noice"> Make a Booking</h2>
+	 <p>Create a booking for an appointment today!</p>    
+        <!--div class="container-md p-3 my-3 border bg-warning text-white">
+            <h1>Erwind's and friends bike shop</h1>
+            <p>Bike fixing is our business</p>
+        </div-->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseService"><h4>Choose a service</h4></a>
+                </div>
+                <div id="collapseService" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Select from our list of services</p>
+						
+						  <form action="/action_page.php">
+							<div class="form-check">
+							  <label class="form-check-label" for="radio1">
+								<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" >Hair Cut (Long)
+							  </label>
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="radio2">
+								<input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Hair Cut (Medium)
+							  </label>
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label">
+								<input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">Hair Cut (Short)
+							  </label>
+							</div>
+							
+							
+							<div class="form-check">
+							  <label class="form-check-label" for="check1">
+								<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" >Colouring
+							  </label>
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="check2">
+								<input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">Shampoo
+							  </label>
+							</div>
+	
+						  </form>
+						
+						
+						
+                    </div>
+                </div>
+			</div>
+			
+			<div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseDresser"><h4>Choose a Hairdresser</h4></a>
+                </div>
+                <div id="collapseDresser" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Choose the hairdresser you want to style your hair</p>
+						
+						<div class="alert alert-primary alert-dismissible">
+								<button type="button" class="close" data-dismiss="alert">&times;</button>
+								<strong>Hair Dresser Availability </strong>
+								<br>
+								You can view each hairdresser's availability under their respective profiles in the <i>'Our Hairdressers'</i> section
+							</div>
+						
+						  <form action="/action_page.php">
+							<div class="form-check">
+							  <label class="form-check-label" for="harriet">
+								<input type="radio" class="form-check-input" id="harriet" name="hairdresser" value="harriet" >Harriet
+							  </label>
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="harold">
+								<input type="radio" class="form-check-input" id="harold" name="hairdresser" value="harold">Harold
+							  </label>
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="harry">
+								<input type="radio" class="form-check-input" id="harry" name="hairdresser" value="harry">Harry
+							  </label>
+							</div>
+						  </form>
+						
+						
+						
+                    </div>
+                </div>
+			</div>
+			
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseDate"><h4>Choose a date</h4></a>
+                </div>
+                <div id="collapseDate" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Enter a date and time for your appointment</p>
+                        <!-- Bootstrap has various input components. Some examples are given here: -->
+                        <!-- Component shown here: https://v4-alpha.getbootstrap.com/components/forms/#textual-inputs -->
+                        <div class="form-group row">
+                            <label for="dateTimeInput" class="col-2 col-form-label"> <input type="text" id="dateInput" placeholder="Select Date"></label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseClientInfo"><h4>Contact Info</h4></a>
+                </div>
+                <div id="collapseClientInfo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Please enter your information so we can contact you</p>
+						
+                          <form>
+							<div class="input-group mb-3">
+							  <div class="input-group-prepend">
+								<span class="input-group-text">Name</span>
+							  </div>
+							  <input type="text" class="form-control" placeholder="First Name">
+							  <input type="text" class="form-control" placeholder="Last Name">
+							</div>  
+							
+							<div class="input-group mb-3">
+							 <div class="input-group-append">
+								<span class="input-group-text">Email Address</span>
+							  </div>
+							  <input type="text" class="form-control" placeholder="Email (eg: user_name123@example.com)" id="demo" name="email">
+							 
+							</div>
+							
+							<div class="input-group mb-3">
+							 <div class="input-group-append">
+								<span class="input-group-text">Phone Number</span>
+							  </div>
+							  <input type="text" class="form-control" placeholder="Phone number (eg: 123-456-7890)"id ="phone" name="phone">
+							 
+							</div>
+							
+							
+						  </form>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="card" id="Payment">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsePayment"><h4>Payment Info</h4></a>
+                </div>
+                <div id="collapsePayment" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p> <img class ="icon-small" src="images/card.png"  alt="noice"> Please enter your credit card information</p>
+						<div class="container">
+							
+							<div class="alert alert-primary alert-dismissible">
+								<button type="button" class="close" data-dismiss="alert">&times;</button>
+								<strong>Why do I need to enter my credit card info? </strong>
+								<br>
+								Although payments for your haircut are handled in store, your credit card information is used and securely stored in case of any last minute cancellations or a no-show (a $20.00 fee is applied)
+							</div>
+						</div>
+                          <form>
+							<div class="input-group mb-3">
+							  <div class="input-group-prepend">
+								<span class="input-group-text">Card Number</span>
+							  </div>
+
+							  <input type="text" class="form-control" id="ccDig1-4" name="ccDig1-4" placeholder="XXXX">
+							  <input type="text" class="form-control" id="ccDig5-8" name="ccDig5-8" placeholder="XXXX">
+							  <input type="text" class="form-control" id="ccDig9-12" name="ccDig9-12" placeholder="XXXX">
+							  <input type="text" class="form-control" id="ccDig13-16" name="ccDig13-16" placeholder="XXXX">
+							</div>  
+							
+							<div class="input-group mb-3">
+							 <div class="input-group-append">
+								<span class="input-group-text">Expiration Date</span>
+							  </div>
+							  <input type="text" class="form-control" placeholder="YY/MM" id="demo" name="date">
+							 
+							</div>
+							
+							<div class="input-group mb-3">
+							 <div class="input-group-append">
+								<span class="input-group-text">Verification Number</span>
+							  </div>
+							  <input type="text" class="form-control" placeholder="XXX" name="verification">
+							 
+							</div>
+							
+							
+						  </form>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseConfirm"><h4>Confirm Booking</h4></a>
+                </div>
+                <div id="collapseConfirm" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Confirm your appointment booking</p>
+						
+						  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mySurvey">Confirm Booking</button>
+          
+							<!-- Modal -->
+							<div class="modal fade" id="mySurvey" role="dialog">
+								<div class="modal-dialog">  
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<div class="modal-body">
+										<div class="container">
+											<h4>Your booking has been placed!</h4>
+											
+										</div>
+									</div>
+									
+							</div>
+							</div> 
+						
+						
+						
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<br>
+
+	<br>
+	<div class="container" id = "Location">        
+	  <table class="table table2">
+
+		<tbody>
+		  <tr>
+		  
+			<td class = "text-right"> <img class ="icon-small" src="images/location.png"  alt="noice">  Location</td>
+			<td>75 Laurier Ave E, Ottawa, ON K1N 6N5</td>
+		  </tr>
+		  <tr>
+			<td class = "text-right">Email</td>
+			<td>nice_scissors@gmail.ca</td>
+		  </tr>
+		  <tr>
+			<td class = "text-right">Phone</td>
+			<td>(613) 562-570</td>
+		  </tr>
+		</tbody>
+	  </table>
+	</div>
+	<br>
+	<br>
+
+
+</body>
+</html>

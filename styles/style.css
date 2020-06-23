@@ -1,0 +1,215 @@
+/* Style sheet
+   color picker www.w3schools.com/colors/colors_picker.asp
+*/
+
+/* Bootstrap default font-family is Helvetica Neue */
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-weight:400;
+  padding-left:7%;
+  
+}
+
+h4 {
+  font-family: "Cinzel", serif;
+  font-weight:400;
+   padding-left:1px;
+  font-size:20px;
+  
+}
+.card-link{
+	colour: black;
+}
+
+h2 {
+	font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+}
+h3 {
+  font-family: "Cinzel", serif;
+  font-weight:400;
+  font-size:40px;
+  
+}
+
+img.nice {
+    width: 80px;
+    height: 45px;
+    float: left;
+    display: inline-block;
+	padding-left:10px;
+}
+img.hair-girl {
+    width: 500px;
+    height: 275px;
+    float: right;
+    display: inline-block;
+    border-radius: 10px;
+}
+img.service-preview {
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 5px;
+}
+img.icon-small{
+	width:25px;
+	height:25px;
+	
+}
+
+img.icon-medium{
+	width:35px;
+	width:35px;
+	
+}
+
+
+
+p{
+	font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+}
+
+body {
+  background-color: #e4dfda;
+  
+}
+.container-fluid {
+	background-color:#ab1553 ;
+	color: white;
+}
+
+.container-fluid2{
+	background-color:#d0ac76 ;
+	color: white;
+}
+
+.container-md{
+	background-color: #d0ac76;
+}
+
+.table {
+	border:2px solid #9C4449;
+	background-color:#270A48;
+	color: black;
+}
+
+
+.table.table-bordered > thead > tr > td{
+    border:4px solid d0ac76;
+}
+
+.table-hover{
+		border:1px solid #d0ac76;
+	background-color:#f1f1f1;
+	color: black;
+}
+
+.table2 {
+	border:#270A48;
+	background-color:#e4dfda;
+	color: #270A48;
+}
+
+
+
+.card{
+	color:black;
+
+}
+.row1{
+	background-color:#d0ac76;
+
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+a {
+	  color: black;
+    font-size: 15px;
+    font-family: 'Varela Round',sans-serif;
+	-webkit-transition: 1s;
+    transition: 0.3s;
+
+}
+
+ a:hover {
+    color: white;
+    -webkit-transition: 1s;
+    transition: 0.3s;
+}
+
+.heading{
+	background-color:#d0ac76;
+}
+.row{
+	
+}
+.form-control:hover{
+	background-color: #efefef;
+	-webkit-transition: 1s;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+ul.hdr {
+	color: white;
+	z-index: 3;
+    position: fixed;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ab1553;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+	left: -5px;
+	width: 101%;
+    padding: 0;
+} 
+li.list{
+	float:left
+}	
+li.hd {
+	float: right;
+}
+/*
+li.hd :hover{
+	background-color: white;
+    -webkit-transition: 1s;
+    transition: 0.3s;
+}
+*/
+li.hd a {
+	
+    font-size: 15px;
+
+	
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-family: 'Varela Round',sans-serif;
+	-webkit-transition: 1s;
+    transition: 0.3s;
+
+}
+li.hd a:hover {
+    color: #d0ac76;
+    -webkit-transition: 1s;
+    transition: 0.3s;
+}
