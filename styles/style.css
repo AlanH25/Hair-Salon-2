@@ -159,7 +159,21 @@ a {
 }
 
 
+p.sig{
+	font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    color: #457b9d;
+	text-align: right;
+}
 
+.footer {
+	float:bottom;
+	padding-right: 30px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+	
+}
 
 
 
